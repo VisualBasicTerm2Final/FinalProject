@@ -49,19 +49,19 @@ Partial Class lairOfDench
         '
         'Label1
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Viner Hand ITC", 18.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.Red
-        Me.Label1.Location = New System.Drawing.Point(403, 64)
+        Me.Label1.Location = New System.Drawing.Point(364, 9)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(441, 72)
+        Me.Label1.Size = New System.Drawing.Size(508, 235)
         Me.Label1.TabIndex = 1
-        Me.Label1.Text = "This is Dench the Orc. He is your first fight." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "You see that huge freaking mallet" & _
-    " in his hand?" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "He killed Thor with that. "
+        Me.Label1.Text = "You see a tall, brutish Orc standing in your path. You haven't encountered anythi" & _
+    "ng like this before. Blood drips from his mouth, and he smells of grog and feces" & _
+    "." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
         'btnWarCry
         '
-        Me.btnWarCry.Location = New System.Drawing.Point(717, 260)
+        Me.btnWarCry.Location = New System.Drawing.Point(732, 286)
         Me.btnWarCry.Name = "btnWarCry"
         Me.btnWarCry.Size = New System.Drawing.Size(91, 35)
         Me.btnWarCry.TabIndex = 2
@@ -70,7 +70,7 @@ Partial Class lairOfDench
         '
         'btnFight
         '
-        Me.btnFight.Location = New System.Drawing.Point(717, 178)
+        Me.btnFight.Location = New System.Drawing.Point(732, 207)
         Me.btnFight.Name = "btnFight"
         Me.btnFight.Size = New System.Drawing.Size(91, 35)
         Me.btnFight.TabIndex = 3
@@ -79,7 +79,7 @@ Partial Class lairOfDench
         '
         'btnRunPast
         '
-        Me.btnRunPast.Location = New System.Drawing.Point(442, 178)
+        Me.btnRunPast.Location = New System.Drawing.Point(455, 207)
         Me.btnRunPast.Name = "btnRunPast"
         Me.btnRunPast.Size = New System.Drawing.Size(91, 35)
         Me.btnRunPast.TabIndex = 4
@@ -88,7 +88,7 @@ Partial Class lairOfDench
         '
         'btnInsultHim
         '
-        Me.btnInsultHim.Location = New System.Drawing.Point(442, 260)
+        Me.btnInsultHim.Location = New System.Drawing.Point(455, 286)
         Me.btnInsultHim.Name = "btnInsultHim"
         Me.btnInsultHim.Size = New System.Drawing.Size(91, 35)
         Me.btnInsultHim.TabIndex = 5
@@ -100,7 +100,7 @@ Partial Class lairOfDench
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.Red
-        Me.Label2.Location = New System.Drawing.Point(536, 317)
+        Me.Label2.Location = New System.Drawing.Point(552, 262)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(174, 24)
         Me.Label2.TabIndex = 6
@@ -115,14 +115,14 @@ Partial Class lairOfDench
         '
         Me.lblTime.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblTime.ForeColor = System.Drawing.Color.White
-        Me.lblTime.Location = New System.Drawing.Point(419, 390)
+        Me.lblTime.Location = New System.Drawing.Point(435, 335)
         Me.lblTime.Name = "lblTime"
         Me.lblTime.Size = New System.Drawing.Size(162, 23)
         Me.lblTime.TabIndex = 7
         '
         'btnAcceptYourFate
         '
-        Me.btnAcceptYourFate.Location = New System.Drawing.Point(579, 217)
+        Me.btnAcceptYourFate.Location = New System.Drawing.Point(592, 207)
         Me.btnAcceptYourFate.Name = "btnAcceptYourFate"
         Me.btnAcceptYourFate.Size = New System.Drawing.Size(91, 35)
         Me.btnAcceptYourFate.TabIndex = 8

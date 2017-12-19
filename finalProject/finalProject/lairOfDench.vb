@@ -9,6 +9,7 @@
 
         Else
             lblTime.Text = "Time's Up!"
+            Timer1_Tick.Enabled = False
             MessageBox.Show("You didn't finish in time you idiot. He turned you into a failure pancake.")
             Me.Close()
 
@@ -16,6 +17,7 @@
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles btnWarCry.Click
-
+        MessageBox.Show("Dench laughed in your face with his gutteral tone and pulled out his mace, only minorly threatened by your attempts.")
     End Sub
+
 End Class

@@ -43,6 +43,8 @@ Partial Class CharacterCreation
         Me.GroupBox8 = New System.Windows.Forms.GroupBox()
         Me.cboRace = New System.Windows.Forms.ComboBox()
         Me.btnCcContinue = New System.Windows.Forms.Button()
+        Me.lblCharacter = New System.Windows.Forms.Label()
+        Me.btnCharacter = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox7.SuspendLayout()
@@ -57,7 +59,7 @@ Partial Class CharacterCreation
         Me.Label1.BackColor = System.Drawing.Color.Black
         Me.Label1.Font = New System.Drawing.Font("Viner Hand ITC", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.Maroon
-        Me.Label1.Location = New System.Drawing.Point(268, 9)
+        Me.Label1.Location = New System.Drawing.Point(248, 9)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(232, 36)
         Me.Label1.TabIndex = 0
@@ -142,7 +144,7 @@ Partial Class CharacterCreation
         'cboSex
         '
         Me.cboSex.FormattingEnabled = True
-        Me.cboSex.Items.AddRange(New Object() {"Human", "Orc", "Infected", "Elf", "Hybrid (Human/Elf)"})
+        Me.cboSex.Items.AddRange(New Object() {"Male", "Female", "Did you just assume my gender?"})
         Me.cboSex.Location = New System.Drawing.Point(8, 10)
         Me.cboSex.Name = "cboSex"
         Me.cboSex.Size = New System.Drawing.Size(121, 21)
@@ -180,7 +182,7 @@ Partial Class CharacterCreation
         'GroupBox3
         '
         Me.GroupBox3.Controls.Add(Me.cboWeapons)
-        Me.GroupBox3.Location = New System.Drawing.Point(103, 219)
+        Me.GroupBox3.Location = New System.Drawing.Point(96, 218)
         Me.GroupBox3.Name = "GroupBox3"
         Me.GroupBox3.Size = New System.Drawing.Size(135, 37)
         Me.GroupBox3.TabIndex = 8
@@ -209,7 +211,7 @@ Partial Class CharacterCreation
         'cboArmor
         '
         Me.cboArmor.FormattingEnabled = True
-        Me.cboArmor.Items.AddRange(New Object() {"Heavy", "Medium", "Light", "Naked (for pros only)"})
+        Me.cboArmor.Items.AddRange(New Object() {"Heavy Armor", "Medium Armor", "Light Armor", "Birthday Suit Armor", "Astronaut Suit"})
         Me.cboArmor.Location = New System.Drawing.Point(6, 10)
         Me.cboArmor.Name = "cboArmor"
         Me.cboArmor.Size = New System.Drawing.Size(121, 21)
@@ -261,6 +263,26 @@ Partial Class CharacterCreation
         Me.btnCcContinue.TabIndex = 11
         Me.btnCcContinue.Text = "Continue"
         Me.btnCcContinue.UseVisualStyleBackColor = True
+        Me.btnCcContinue.Visible = False
+        '
+        'lblCharacter
+        '
+        Me.lblCharacter.ForeColor = System.Drawing.Color.Maroon
+        Me.lblCharacter.Location = New System.Drawing.Point(269, 81)
+        Me.lblCharacter.Name = "lblCharacter"
+        Me.lblCharacter.Size = New System.Drawing.Size(211, 252)
+        Me.lblCharacter.TabIndex = 12
+        Me.lblCharacter.Text = "Label8"
+        Me.lblCharacter.Visible = False
+        '
+        'btnCharacter
+        '
+        Me.btnCharacter.Location = New System.Drawing.Point(254, 374)
+        Me.btnCharacter.Name = "btnCharacter"
+        Me.btnCharacter.Size = New System.Drawing.Size(87, 33)
+        Me.btnCharacter.TabIndex = 13
+        Me.btnCharacter.Text = "Show"
+        Me.btnCharacter.UseVisualStyleBackColor = True
         '
         'CharacterCreation
         '
@@ -268,6 +290,8 @@ Partial Class CharacterCreation
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.ClientSize = New System.Drawing.Size(512, 431)
+        Me.Controls.Add(Me.btnCharacter)
+        Me.Controls.Add(Me.lblCharacter)
         Me.Controls.Add(Me.btnCcContinue)
         Me.Controls.Add(Me.GroupBox8)
         Me.Controls.Add(Me.GroupBox2)
@@ -315,4 +339,6 @@ Partial Class CharacterCreation
     Friend WithEvents cboArmor As System.Windows.Forms.ComboBox
     Friend WithEvents cboClass As System.Windows.Forms.ComboBox
     Friend WithEvents btnCcContinue As System.Windows.Forms.Button
+    Friend WithEvents lblCharacter As System.Windows.Forms.Label
+    Friend WithEvents btnCharacter As System.Windows.Forms.Button
 End Class
