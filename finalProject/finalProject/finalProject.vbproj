@@ -82,10 +82,34 @@
     <Compile Include="instructions.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="journey1.Designer.vb">
+      <DependentUpon>journey1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="journey1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="journey2.Designer.vb">
+      <DependentUpon>journey2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="journey2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kamehameha.Designer.vb">
+      <DependentUpon>kamehameha.vb</DependentUpon>
+    </Compile>
+    <Compile Include="kamehameha.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="lairOfDench.Designer.vb">
       <DependentUpon>lairOfDench.vb</DependentUpon>
     </Compile>
     <Compile Include="lairOfDench.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="memes.Designer.vb">
+      <DependentUpon>memes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="memes.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Menu.vb">
@@ -110,10 +134,22 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="scenery1.Designer.vb">
-      <DependentUpon>scenery1.vb</DependentUpon>
+    <Compile Include="pinnacleOfHeaven.Designer.vb">
+      <DependentUpon>pinnacleOfHeaven.vb</DependentUpon>
     </Compile>
-    <Compile Include="scenery1.vb">
+    <Compile Include="pinnacleOfHeaven.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="runningAway.Designer.vb">
+      <DependentUpon>runningAway.vb</DependentUpon>
+    </Compile>
+    <Compile Include="runningAway.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="prolouge.Designer.vb">
+      <DependentUpon>prolouge.vb</DependentUpon>
+    </Compile>
+    <Compile Include="prolouge.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
@@ -124,8 +160,20 @@
     <EmbeddedResource Include="instructions.resx">
       <DependentUpon>instructions.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="journey1.resx">
+      <DependentUpon>journey1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="journey2.resx">
+      <DependentUpon>journey2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kamehameha.resx">
+      <DependentUpon>kamehameha.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="lairOfDench.resx">
       <DependentUpon>lairOfDench.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="memes.resx">
+      <DependentUpon>memes.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.vb</DependentUpon>
@@ -136,8 +184,14 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="scenery1.resx">
-      <DependentUpon>scenery1.vb</DependentUpon>
+    <EmbeddedResource Include="pinnacleOfHeaven.resx">
+      <DependentUpon>pinnacleOfHeaven.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="runningAway.resx">
+      <DependentUpon>runningAway.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="prolouge.resx">
+      <DependentUpon>prolouge.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -160,6 +214,23 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\denchOrc1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maxresdefault.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HELPME.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="kamehameha.gif">
+      <SubType>Form</SubType>
+    </Content>
+    <None Include="Resources\goodjob.jpg" />
+    <None Include="Resources\Dwitanic.jpg" />
+    <None Include="Resources\veemothememo.jpg" />
+    <None Include="Resources\crazykid.jpg" />
+    <None Include="Resources\dogeMeme.jpg" />
+    <None Include="Resources\kamehameha.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

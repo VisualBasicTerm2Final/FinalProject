@@ -23,6 +23,18 @@ finalProject
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:finalProject.My.Resources.Resources.HELPME">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:finalProject.My.Resources.Resources.kamehameha">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:finalProject.My.Resources.Resources.maxresdefault">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:finalProject.My.Resources.Resources.menu">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.

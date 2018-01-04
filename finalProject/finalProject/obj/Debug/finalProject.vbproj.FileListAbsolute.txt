@@ -49,4 +49,8 @@ C:\Users\rc131187\Desktop\VB\FinalProject\finalProject\finalProject\obj\Debug\fi
 C:\Users\rc131187\Desktop\VB\FinalProject\finalProject\finalProject\obj\Debug\finalProject.Menu.resources
 C:\Users\rc131187\Desktop\VB\FinalProject\finalProject\finalProject\obj\Debug\finalProject.Resources.resources
 C:\Users\rc131187\Desktop\VB\FinalProject\finalProject\finalProject\obj\Debug\finalProject.vbproj.GenerateResource.Cache
-C:\Users\rc131187\Desktop\VB\FinalProject\finalProject\finalProject\obj\Debug\finalProject.scenery1.resources
+C:\Users\rc131187\Desktop\VB\FinalProject\finalProject\finalProject\obj\Debug\finalProject.pinnacleOfHeaven.resources
+C:\Users\rc131187\Desktop\VB\FinalProject\finalProject\finalProject\obj\Debug\finalProject.runningAway.resources
+C:\Users\rc131187\Desktop\VB\FinalProject\finalProject\finalProject\obj\Debug\finalProject.journey1.resources
+C:\Users\rc131187\Desktop\VB\FinalProject\finalProject\finalProject\obj\Debug\finalProject.prolouge.resources
+C:\Users\rc131187\Desktop\VB\FinalProject\finalProject\finalProject\obj\Debug\finalProject.kamehameha.resources

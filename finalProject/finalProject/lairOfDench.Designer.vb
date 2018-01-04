@@ -22,14 +22,12 @@ Partial Class lairOfDench
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.components = New System.ComponentModel.Container()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.btnWarCry = New System.Windows.Forms.Button()
         Me.btnFight = New System.Windows.Forms.Button()
         Me.btnRunPast = New System.Windows.Forms.Button()
         Me.btnInsultHim = New System.Windows.Forms.Button()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.timeLeft = New System.Windows.Forms.Timer(Me.components)
         Me.lblTime = New System.Windows.Forms.Label()
         Me.btnAcceptYourFate = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
@@ -95,11 +93,6 @@ Partial Class lairOfDench
         Me.Label2.TabIndex = 6
         Me.Label2.Text = "What do you do? "
         '
-        'timeLeft
-        '
-        Me.timeLeft.Enabled = True
-        Me.timeLeft.Interval = 5000
-        '
         'lblTime
         '
         Me.lblTime.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -158,7 +151,6 @@ Partial Class lairOfDench
     Friend WithEvents btnRunPast As System.Windows.Forms.Button
     Friend WithEvents btnInsultHim As System.Windows.Forms.Button
     Friend WithEvents Label2 As System.Windows.Forms.Label
-    Friend WithEvents timeLeft As System.Windows.Forms.Timer
     Friend WithEvents lblTime As System.Windows.Forms.Label
     Friend WithEvents btnAcceptYourFate As System.Windows.Forms.Button
 End Class
