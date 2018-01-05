@@ -20,11 +20,14 @@
     End Sub
 
     Private Sub btnFight_Click(sender As Object, e As EventArgs) Handles btnFight.Click
-        MessageBox.Show("You can't fight a demon")
+        MessageBox.Show("You can't fight a demon. ...Returning to main menu...")
         Me.Close()
     End Sub
 
     Private Sub btnMeme_Click(sender As Object, e As EventArgs) Handles btnMeme.Click
-        Dim box = New
+        Me.Close()
+        Dim box = New memes
+        box.Show()
+
     End Sub
 End Class

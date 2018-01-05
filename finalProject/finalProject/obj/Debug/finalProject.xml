@@ -15,11 +15,27 @@ finalProject
   Overrides the current thread's CurrentUICulture property for all
   resource lookups using this strongly typed resource class.
 </summary>
+</member><member name="P:finalProject.My.Resources.Resources.crazykid">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:finalProject.My.Resources.Resources.denchOrc">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member><member name="P:finalProject.My.Resources.Resources.denchOrc1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:finalProject.My.Resources.Resources.dogeMeme">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:finalProject.My.Resources.Resources.Dwitanic">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:finalProject.My.Resources.Resources.goodjob">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -36,6 +52,14 @@ finalProject
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member><member name="P:finalProject.My.Resources.Resources.menu">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:finalProject.My.Resources.Resources.nito">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:finalProject.My.Resources.Resources.veemothememo">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

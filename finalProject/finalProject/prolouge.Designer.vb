@@ -49,7 +49,7 @@ Partial Class prolouge
         Me.btnContinue.Text = "Continue"
         Me.btnContinue.UseVisualStyleBackColor = False
         '
-        'scenery1
+        'prolouge
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -58,7 +58,7 @@ Partial Class prolouge
         Me.Controls.Add(Me.btnContinue)
         Me.Controls.Add(Me.Label1)
         Me.ForeColor = System.Drawing.SystemColors.ActiveCaption
-        Me.Name = "scenery1"
+        Me.Name = "prolouge"
         Me.Text = "scenery1"
         Me.ResumeLayout(False)
 

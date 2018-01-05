@@ -2,6 +2,8 @@
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles btnKid.Click
         Dim box = New journey2
+        box.Show()
+
         Me.Close()
     End Sub
 
@@ -12,6 +14,8 @@
 
     Private Sub btnDwight_Click(sender As Object, e As EventArgs) Handles btnDwight.Click
         Dim box = New journey2
+        box.Show()
+
         Me.Close()
     End Sub
 

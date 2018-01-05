@@ -54,3 +54,11 @@ C:\Users\rc131187\Desktop\VB\FinalProject\finalProject\finalProject\obj\Debug\fi
 C:\Users\rc131187\Desktop\VB\FinalProject\finalProject\finalProject\obj\Debug\finalProject.journey1.resources
 C:\Users\rc131187\Desktop\VB\FinalProject\finalProject\finalProject\obj\Debug\finalProject.prolouge.resources
 C:\Users\rc131187\Desktop\VB\FinalProject\finalProject\finalProject\obj\Debug\finalProject.kamehameha.resources
+C:\Users\rc131187\Desktop\VB\FinalProject\finalProject\finalProject\obj\Debug\finalProject.journey2.resources
+C:\Users\rc131187\Desktop\VB\FinalProject\finalProject\finalProject\obj\Debug\finalProject.memes.resources
+C:\Users\rc131187\Desktop\VB\FinalProject\finalProject\finalProject\obj\Debug\finalProject.nito.resources
+C:\Users\rc131187\Desktop\VB\FinalProject\finalProject\finalProject\bin\Debug\finalProject.exe.manifest
+C:\Users\rc131187\Desktop\VB\FinalProject\finalProject\finalProject\bin\Debug\finalProject.application
+C:\Users\rc131187\Desktop\VB\FinalProject\finalProject\finalProject\obj\Debug\finalProject.TrustInfo.xml
+C:\Users\rc131187\Desktop\VB\FinalProject\finalProject\finalProject\obj\Debug\finalProject.exe.manifest
+C:\Users\rc131187\Desktop\VB\FinalProject\finalProject\finalProject\obj\Debug\finalProject.application
