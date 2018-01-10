@@ -40,7 +40,7 @@ Thank you to Google for helping us out.
 Thank you to Brosius for helping us out.
 Thank you to my classmates for playing our game in the early stages of production.
 
-<img src="Capture.PNG">
+<img src="images/flowchart.PNG">
 //This is the flowchart!
 <a href="youtube.com/watch?v=LVughRcASYU">viewprogram</a>
 
