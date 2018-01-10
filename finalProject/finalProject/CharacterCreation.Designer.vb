@@ -267,6 +267,7 @@ Partial Class CharacterCreation
         '
         'lblCharacter
         '
+        Me.lblCharacter.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblCharacter.ForeColor = System.Drawing.Color.Maroon
         Me.lblCharacter.Location = New System.Drawing.Point(269, 81)
         Me.lblCharacter.Name = "lblCharacter"

@@ -12,6 +12,22 @@
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\rc131187\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -44,6 +60,24 @@
   </PropertyGroup>
   <PropertyGroup>
     <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>98370DEAAD55057DB2BB86BC4AB5DC178882AFA3</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>finalProject_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -82,10 +116,40 @@
     <Compile Include="instructions.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="nito.Designer.vb">
+      <DependentUpon>nito.vb</DependentUpon>
+    </Compile>
+    <Compile Include="nito.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="journey1.Designer.vb">
+      <DependentUpon>journey1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="journey1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="journey2.Designer.vb">
+      <DependentUpon>journey2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="journey2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kamehameha.Designer.vb">
+      <DependentUpon>kamehameha.vb</DependentUpon>
+    </Compile>
+    <Compile Include="kamehameha.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="lairOfDench.Designer.vb">
       <DependentUpon>lairOfDench.vb</DependentUpon>
     </Compile>
     <Compile Include="lairOfDench.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="memes.Designer.vb">
+      <DependentUpon>memes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="memes.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Menu.vb">
@@ -110,10 +174,22 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="scenery1.Designer.vb">
-      <DependentUpon>scenery1.vb</DependentUpon>
+    <Compile Include="pinnacleOfHeaven.Designer.vb">
+      <DependentUpon>pinnacleOfHeaven.vb</DependentUpon>
     </Compile>
-    <Compile Include="scenery1.vb">
+    <Compile Include="pinnacleOfHeaven.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="runningAway.Designer.vb">
+      <DependentUpon>runningAway.vb</DependentUpon>
+    </Compile>
+    <Compile Include="runningAway.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="prolouge.Designer.vb">
+      <DependentUpon>prolouge.vb</DependentUpon>
+    </Compile>
+    <Compile Include="prolouge.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
@@ -124,8 +200,23 @@
     <EmbeddedResource Include="instructions.resx">
       <DependentUpon>instructions.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="nito.resx">
+      <DependentUpon>nito.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="journey1.resx">
+      <DependentUpon>journey1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="journey2.resx">
+      <DependentUpon>journey2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kamehameha.resx">
+      <DependentUpon>kamehameha.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="lairOfDench.resx">
       <DependentUpon>lairOfDench.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="memes.resx">
+      <DependentUpon>memes.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.vb</DependentUpon>
@@ -136,11 +227,19 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="scenery1.resx">
-      <DependentUpon>scenery1.vb</DependentUpon>
+    <EmbeddedResource Include="pinnacleOfHeaven.resx">
+      <DependentUpon>pinnacleOfHeaven.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="runningAway.resx">
+      <DependentUpon>runningAway.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="prolouge.resx">
+      <DependentUpon>prolouge.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="finalProject_TemporaryKey.pfx" />
+    <None Include="My Project\app.manifest" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -160,6 +259,41 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\denchOrc1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maxresdefault.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HELPME.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="kamehameha.gif">
+      <SubType>Form</SubType>
+    </Content>
+    <None Include="Resources\nito.png" />
+    <None Include="Resources\goodjob.jpg" />
+    <None Include="Resources\Dwitanic.jpg" />
+    <None Include="Resources\veemothememo.jpg" />
+    <None Include="Resources\crazykid.jpg" />
+    <None Include="Resources\dogeMeme.jpg" />
+    <None Include="Resources\kamehameha.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

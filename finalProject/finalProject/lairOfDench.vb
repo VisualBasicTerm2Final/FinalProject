@@ -1,6 +1,6 @@
 ﻿Public Class lairOfDench
 
-    Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles timeLeft.Tick
+    Private Sub Timer1_Tick(sender As Object, e As EventArgs)
 
 
 
@@ -11,17 +11,31 @@
     End Sub
 
     Private Sub lairOfDench_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
-        If timeLeft > 0 Then
-            timeLeft = timeLeft - 1000
-            lblTime.Text = timeLeft.ToString + " seconds left."
-
-        Else
-            lblTime.Text = "Time's Up!"
-
-            MessageBox.Show("You didn't finish in time you idiot. He turned you into a failure pancake.")
-            Me.Close()
-
-        End If
     End Sub
+
+    Private Sub btnAcceptYourFate_Click(sender As Object, e As EventArgs) Handles btnAcceptYourFate.Click
+        MessageBox.Show("The mighty orc slaps you in the face with his hammer. You have failed. Returning to the main menu...")
+        Me.Close()
+
+    End Sub
+
+    Private Sub btnRunPast_Click(sender As Object, e As EventArgs) Handles btnRunPast.Click
+        MessageBox.Show("He smashes his foot down in front of you. You cannot escape this.")
+    End Sub
+
+    Private Sub btnFight_Click(sender As Object, e As EventArgs) Handles btnFight.Click
+        MessageBox.Show("Those muscles were all for show. He used those inflatable muscle sleeves from season 1 episode 22 on Spongebob Squarepants. You may proceed, master.")
+        Me.Close()
+        Dim box = New prolouge
+        box.Show()
+    End Sub
+
+    Private Sub btnInsultHim_Click(sender As Object, e As EventArgs) Handles btnInsultHim.Click
+
+        MessageBox.Show("Wow you made him cry. He says in a somber tone. You shall pass. He looks aways, trying to hold back the tears. SCRUB!")
+        Me.Close()
+        Dim box = New prolouge
+        box.Show()
+    End Sub
+
 End Class
